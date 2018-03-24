@@ -3,11 +3,10 @@ body{
 	padding: 0;
 }
 .mainSection{
-	height: 100%;
-	width: 100vh;
+	height: 100vh;
 	background-image: url(../img/ops.jpg);
 }
-.mainSection h1{
+.mainSection .textCenterWrapp h1{
 	margin: 0;
 }
 .mainSection .textCenterWrapp{
@@ -26,10 +25,44 @@ body{
 	font-weight: 400;
 	font-size: 12px;
 	border-radius: 4px;
-	transition: .5s;
+	transition: background-color 2s, font-weight 1.5s;
 }
 .mainSection .textCenterWrapp .baton:hover{
 	background-color: black;
 	color: white;
 	font-weight: 800;
 }
+.service{
+	height: 70vh;
+	background-color: green;
+	padding: 150px 0;
+}
+.service h5{
+	margin: 0;
+	color: #ecb807;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.service h2{
+	color: black;
+	margin: 0;
+}
+.service .titleTextWrapp{
+	text-align: center;
+}
+.iconWrapp{
+	width: 25%;
+}
+.icon{
+	background-color: white;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.icon svg{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
