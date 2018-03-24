@@ -1,0 +1,12 @@
+.exp{
+	background: purple;
+	min-height: 50vh;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.white-text{
+	color: white;
+}
+.titleWrapp hr{
+	width: 100px;
+}
