@@ -1,12 +1,35 @@
-.exp{
-	background: purple;
-	min-height: 50vh;
-	padding-top: 150px;
-	padding-bottom: 150px;
+body{
+	margin: 0;
+	padding: 0;
 }
-.white-text{
-	color: white;
+.mainSection{
+	height: 100%;
+	width: 100vh;
+	background-image: url(../img/ops.jpg);
 }
-.titleWrapp hr{
+.mainSection h1{
+	margin: 0;
+}
+.mainSection .textCenterWrapp{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translate(-50%);
+}
+.mainSection .textCenterWrapp .baton{
 	width: 100px;
+	height: 24px;
+	background-color: black;
+	border: 0;
+	color: white;
+	margin-top: 30px;
+	font-weight: 400;
+	font-size: 12px;
+	border-radius: 4px;
+	transition: .5s;
+}
+.mainSection .textCenterWrapp .baton:hover{
+	background-color: black;
+	color: white;
+	font-weight: 800;
 }
